@@ -1,0 +1,31 @@
+{
+  "name": "core",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "type": "commonjs",
+  "source": "src/index.ts",
+  "repository": {
+    "url": "https://github.com/Code-From-Anywhere/king",
+    "type": "git"
+  },
+  "homepage": "https://getking.co",
+  "scripts": {
+    "initpub": "npm publish --access public",
+    "pub": "npm version patch --force && npm publish",
+    "release": "standard-version",
+    "lint": "tsc --noEmit && eslint ./ --ext .ts",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "author": "Wijnand Karsens",
+  "license": "ISC",
+  "dependencies": {
+    "sensible-core": "^1.0.27",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "tsconfig": "*",
+    "config": "*"
+  }
+}
