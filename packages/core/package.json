@@ -6,10 +6,10 @@
   "type": "commonjs",
   "source": "src/index.ts",
   "repository": {
-    "url": "https://github.com/Code-From-Anywhere/king",
+    "url": "https://github.com/Code-From-Anywhere/himalayajeep",
     "type": "git"
   },
-  "homepage": "https://getking.co",
+  "homepage": "https://himalayajeep.com",
   "scripts": {
     "initpub": "npm publish --access public",
     "pub": "npm version patch --force && npm publish",
@@ -23,9 +23,5 @@
   "dependencies": {
     "sensible-core": "^1.0.27",
     "typescript": "^4.5.5"
-  },
-  "devDependencies": {
-    "tsconfig": "*",
-    "config": "*"
   }
 }

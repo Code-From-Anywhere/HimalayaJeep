@@ -10,7 +10,7 @@ import {
   makeDefaultEndpoints,
 } from "sensible-server";
 import { interpretableTypes } from "./typeFiles";
-import { PublicConstants } from "core";
+import { PublicConstants } from "./core";
 import path, { resolve } from "path";
 import { Path } from "sensible-core";
 

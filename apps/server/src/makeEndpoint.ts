@@ -4,7 +4,7 @@
  */
 import path from "path";
 import { createMakeEndpoint } from "sensible-server";
-import { AllEndpoints } from "core";
+import { AllEndpoints } from "./core";
 import { interpretableTypes } from "./typeFiles";
 
 const schemasFolderPath = path.join(__dirname, "..", "schemas");
